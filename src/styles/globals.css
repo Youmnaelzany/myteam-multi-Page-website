@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Livvic', sans-serif;
+  padding: 0;
+}
+
+img,
+picture {
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 1rem;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
